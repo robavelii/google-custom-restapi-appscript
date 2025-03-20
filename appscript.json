@@ -1,0 +1,24 @@
+{
+  "timeZone": "Africa/Nairobi",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "webapp": {
+    "executeAs": "USER_ACCESSING",
+    "access": "ANYONE"
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.scriptapp",
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/datastudio"
+  ],
+  "dataStudio": {
+    "name": "Custom Community Data Connector",
+    "description": "A connector to fetch data from custom rest-api.",
+    "logoUrl": "https://www.logourl.com",
+    "company": "Company Name",
+    "addonUrl": "https://github.com/robavelii",
+    "supportUrl": "https://github.com/robavelii"
+  }
+}
